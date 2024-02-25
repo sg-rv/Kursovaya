@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml" fx:controller="com.example.univercurso.MainMenuController">
+   <children>
+      <Label layoutX="79.0" layoutY="41.0" prefHeight="46.0" prefWidth="222.0" text="Выберите категорию:">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Button fx:id="toTV" layoutX="79.0" layoutY="87.0" mnemonicParsing="false" onAction="#toTVCommand" prefHeight="25.0" prefWidth="193.0" />
+      <Button fx:id="toPhotoProd" layoutX="79.0" layoutY="118.0" mnemonicParsing="false" onAction="#toPhotoCommand" prefHeight="25.0" prefWidth="193.0" />
+      <Button fx:id="toSmartphones" layoutX="79.0" layoutY="150.0" mnemonicParsing="false" onAction="#toSmartCommand" prefHeight="25.0" prefWidth="193.0" />
+      <Button fx:id="toAudioProd" layoutX="79.0" layoutY="181.0" mnemonicParsing="false" onAction="#toAudioCommand" prefHeight="25.0" prefWidth="193.0" />
+      <Button fx:id="toGames" layoutX="79.0" layoutY="212.0" mnemonicParsing="false" onAction="#toGamesCommand" prefHeight="25.0" prefWidth="193.0" />
+      <Button fx:id="toHouseProd" layoutX="79.0" layoutY="244.0" mnemonicParsing="false" onAction="#toHouseCommand" prefHeight="25.0" prefWidth="193.0" />
+      <Label fx:id="label" layoutX="312.0" layoutY="93.0" prefHeight="55.0" prefWidth="193.0" />
+      <Button layoutX="505.0" layoutY="25.0" mnemonicParsing="false" onAction="#toCart" prefHeight="25.0" prefWidth="68.0" text="Корзина" />
+   </children>
+</AnchorPane>
